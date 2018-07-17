@@ -4,4 +4,4 @@ Controlled component is an elegant practice to facilitate component communicatio
 
 ![Alt Text](https://github.com/b-45/controlled-component-vue/blob/master/signup.gif)
 
-##### Resources - [Advanced Vue Component Design](https://adamwathan.me/advanced-vue-component-design/)
+###### Resources - [Advanced Vue Component Design](https://adamwathan.me/advanced-vue-component-design/)
