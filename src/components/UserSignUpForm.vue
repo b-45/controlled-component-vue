@@ -83,6 +83,31 @@ import ToggleInput from "@/components/ToggleInput.vue";
 export default {
   components: {
     ToggleInput
+  },
+  data() {
+    return {
+      firstName: "",
+      lastName: "",
+      email: "",
+      username: "",
+      password: "",
+      confirmPassword: "",
+      receiveNewsletter: false
+    };
+  },
+  methods: {
+    submit() {
+      console.log("Submitting Preferences....", {
+        firstName: this.firstName,
+        lastName: this.lastName,
+        email: this.email,
+        username: this.username,
+        password: this.password,
+        confirmPassword: this.confirmPassword,
+        receiveNewsletter: this.receiveNewsletter
+      });
+      this.email = "";
+    }
   }
 };
 </script>
